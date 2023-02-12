@@ -8,7 +8,7 @@ import {Product} from "../components/Product";
 import {Modal} from "../components/Modal";
 import {CreateProduct} from "../components/CreateProduct";
 
-export function AboutPage() {
+export function ProductsPage() {
     const {loading, error, products, addProduct} = useProducts()
     const {modal, open, close} = useContext(ModalContext)
     const createHandler = (product: IProduct) => {
