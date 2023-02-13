@@ -11,7 +11,6 @@ function App() {
                 <Route path="/products" element={ <ProductsPage/> }/>
                 <Route path="/about" element={ < AboutPage />} />
             </Routes>
-            <div className="font-bold text-center">Click to other page above!!</div>
         </>
     )
 }
